@@ -8,3 +8,31 @@
       left: 0;
       min-height: 300px;
   }
+
+  
+  .card{
+    border-radius: 6px;
+  overflow: hidden; 
+  background: rgb(224, 10, 10);
+  box-shadow: 0px 1px 10px rgb(248, 7, 7);
+  cursor: default;
+  transition: all 400ms ease;
+  
+  }
+  .card:hover{
+  box-shadow: seashell;
+  transform: translateY(-3%);
+  }
+   .card p{
+       color: rgb(255, 249, 255);
+   }
+   .card button{
+       color: rgb(248, 8, 8);
+   }
+body{
+    background-color: black;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blanchedalmond;
+}
